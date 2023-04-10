@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <img src="https://cdn-icons-png.flaticon.com/512/104/104647.png" alt="Markdownify" width="200"></a>
+  <img src="https://www.kindpng.com/picc/m/74-744558_cash-money-clip-art-coupon-vector-material-transparent.png" alt="Markdownify" width="200"></a>
   <br>
-  ATM Simulation
+  ATM Simulation V1
   <br>
 </h1>
 
@@ -11,21 +11,20 @@
 </p>
 
 ## What is this?
-This is a very simple text file editor that allows you to create files, add words and delete words.
+This script simulates using an ATM machine for basic note exchanging. You will be asked how many of each note denomination you want to deposit, then will be asked which notes you want in return based on the total value deposited.
 
-## How To Use
-1. Create a folder with the name "word-lists" in the same directory that you have the text editor script stored in. Alternatively you can use a different folder name however you will need to specify this in the script. On line 7 and 16 replace "word-lists" with your file name.
+## How it works
+This program has been tested in Python IDLE and VSCode.
+1. In the first stage you will be asked how many of each note denomination you want to recieve. The script will start at 5's and works it's way up to 100's. Enter the appropriate values.
 
-2. Run the script. You will be asked to enter the name of your text file. Enter the name of the text file to open within that directory. 
-If a file with that name does not exit then you will be asked if you would like to create a new txt file with that name. If so type "y".
+2. Now you will be asked to deposit notes to meet the required balance. Only valid note denominations are allowed as the input (5, 10, 20, 50, 100). Continue this until the remaining balance hits zero**.
 
-3. You will now be presented with a list of options to configure the file's contents. The list will look as follows:
+**If the the user deposit exceeds the required amount then the script will stop because the "Transaction cannot be completed"
 
-<img src="https://i.imgur.com/3kGTGpW.png">
-
-Enter a number option to choose your method of configuration.
+## Example
+<img src="https://i.imgur.com/ZKN4Thf.png">
 
 ## Important
-This program has been tested in Python IDLE and VSCode.
+The beginning of the script would be cleaner if a dictionary and a for loop were to be used. This may be added in newer versions.
 
-Lines 20-24 and 30-36 were not written by Matthew Ng. All credits go to third parties.
+The script is based on Australian note denominations.
