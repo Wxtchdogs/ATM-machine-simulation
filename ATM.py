@@ -43,3 +43,5 @@ while True:
     else: 
         print("The deposit amount", userDeposit, "exceeds the required amount", remainder, "Transaction cannot be completed")
         break
+        
+exit = input("Enter any key to exit")
