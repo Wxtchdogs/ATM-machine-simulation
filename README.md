@@ -14,7 +14,6 @@
 This script simulates using an ATM machine for basic note exchanging. You will be asked how many of each note denomination you want to deposit, then will be asked which notes you want in return based on the total value deposited.
 
 ## How it works
-This program has been tested in Python IDLE and VSCode.
 1. In the first stage you will be asked how many of each note denomination you want to recieve. The script will start at 5's and works it's way up to 100's. Enter the appropriate values.
 
 2. Now you will be asked to deposit notes to meet the required balance. Only valid note denominations are allowed as the input (5, 10, 20, 50, 100). Continue this until the remaining balance hits zero**.
