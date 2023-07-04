@@ -1,3 +1,6 @@
+## This repository is for small projects that don't fit into the categories of my other repositories
+
+
 <h1 align="center">
   <br>
   <img src="https://www.kindpng.com/picc/m/74-744558_cash-money-clip-art-coupon-vector-material-transparent.png" alt="Markdownify" width="200"></a>
