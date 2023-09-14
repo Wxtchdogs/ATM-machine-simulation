@@ -2,10 +2,7 @@
 
 
 <h1 align="center">
-  <br>
-  <img src="https://www.kindpng.com/picc/m/74-744558_cash-money-clip-art-coupon-vector-material-transparent.png" alt="Markdownify" width="200"></a>
-  <br>
-  ATM Simulation V1
+  ATM Simulation V1 (Bachelor comp sci inputs)
   <br>
 </h1>
 
@@ -30,3 +27,27 @@ This script simulates using an ATM machine for basic note exchanging. You will b
 The beginning of the script would be cleaner if a dictionary and a for loop were to be used. This may be added in newer versions.
 
 The script is based on Australian note denominations.
+
+<h1 align="center">
+  Diploma networking (dictionaries)
+  <br>
+</h1>
+
+<p align="center">
+    Matthew Ng 2023©
+</p>
+
+## What is this?
+This script demonstrates the use of dictionaries in python. This includes adding, removing and searching.
+
+<h1 align="center">
+  Diploma networking (lists)
+  <br>
+</h1>
+
+<p align="center">
+    Matthew Ng 2023©
+</p>
+
+## What is this?
+This script demonstrates the use of lists in python. This includes adding, removing and searching.
